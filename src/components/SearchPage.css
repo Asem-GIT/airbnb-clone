@@ -1,0 +1,158 @@
+.searchPage {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.searchPage__info {
+    padding: 20px;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.searchPage__info > p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.searchPage__info > h1 {
+    margin-bottom: 30px;
+}
+
+.searchPage__info > button {
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+}
+
+.searchPage__loading {
+    text-align: center;
+    padding: 50px;
+    color: #666;
+}
+
+.searchPage__noResults {
+    text-align: center;
+    padding: 50px;
+    color: #666;
+}
+
+.searchPage__noResults h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.searchPage__filters {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.searchPage__filter {
+    white-space: nowrap;
+}
+
+.price-menu {
+    padding: 20px;
+}
+
+.price-slider {
+    width: 300px;
+    padding: 20px;
+}
+
+.price-slider h3 {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.price-range {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    color: #666;
+    font-weight: 500;
+}
+
+.active-filter {
+    background-color: #f7f7f7 !important;
+    border-color: #ff385c !important;
+    color: #ff385c !important;
+}
+
+.MuiSlider-root {
+    color: #ff385c !important;
+}
+
+.MuiSlider-thumb {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.MuiSlider-valueLabel {
+    background-color: #ff385c !important;
+}
+
+.price-slider .MuiButton-contained {
+    margin-top: 20px;
+    background-color: #ff385c !important;
+}
+
+.price-slider .MuiButton-contained:hover {
+    background-color: #e31c5f !important;
+}
+
+.price-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.price-buttons .MuiButton-root {
+    flex: 1;
+}
+
+.price-buttons .MuiButton-contained {
+    background-color: #FF385C !important;
+}
+
+.price-buttons .MuiButton-contained:hover {
+    background-color: #E31C5F !important;
+}
+
+.price-menu .MuiPaper-root {
+    max-height: none !important;
+}
+
+.price-slider .MuiSlider-root {
+    margin: 10px 0;
+}
+
+/* Prevenir que el MenuItem se cierre al hacer clic */
+.price-menu .MuiMenuItem-root {
+    padding: 0;
+}
+
+.price-menu .MuiMenuItem-root:hover {
+    background-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .searchPage__resultsList {
+        grid-template-columns: 1fr;
+    }
+
+    .searchPage__info > button {
+        margin: 3px;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
+
+.searchPage__resultsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+} 

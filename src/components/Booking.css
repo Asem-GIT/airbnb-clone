@@ -1,0 +1,108 @@
+.booking {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.booking__price-header {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.booking__price-header h2 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.booking__price-header span {
+    color: #666;
+    font-size: 16px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #717171;
+}
+
+.booking__guests {
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.booking__guests h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.booking__guests .MuiTextField-root {
+    width: 100px;
+}
+
+.booking__summary {
+    margin: 20px 0;
+}
+
+.booking__detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.booking__total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 18px;
+}
+
+.MuiButton-root {
+    background-color: #FF385C !important;
+    font-size: 16px !important;
+    padding: 12px !important;
+    margin-top: 20px !important;
+}
+
+.MuiButton-root:hover {
+    background-color: #E31C5F !important;
+}
+
+.DateRangePicker {
+    width: 100%;
+}
+
+.DateRangePickerInput {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.DateInput {
+    width: 100%;
+}
+
+.DateInput_input {
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.DateRangePickerInput_arrow {
+    padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .booking {
+        margin: 20px;
+        padding: 20px;
+    }
+} 
