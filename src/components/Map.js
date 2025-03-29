@@ -32,7 +32,7 @@ function Map({ properties }) {
     return (
         <div className="map">
             <LoadScript 
-                googleMapsApiKey="AIzaSyAuAUP2wowKGb1OuAxm7cQiBA1kRiv2APo"
+                googleMapsApiKey
                 onLoad={() => console.log('Script loaded successfully')}
                 onError={(error) => console.error('Script loading error:', error)}
             >
